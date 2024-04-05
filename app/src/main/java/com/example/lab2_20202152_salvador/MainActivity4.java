@@ -13,6 +13,13 @@ public class MainActivity4 extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main4);
+
+        Intent intent1 = getIntent();
+        String texto = intent1.getStringExtra("texto");
+
+        TextView textView = findViewById(R.id.historialscrol);
+        textView.setText(texto);
+
     }
     public void retroceder3(View view){
         Intent intent = new Intent(this, MainActivity3.class);

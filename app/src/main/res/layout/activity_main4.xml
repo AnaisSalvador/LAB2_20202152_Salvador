@@ -42,22 +42,18 @@
         <ScrollView
             android:layout_width="293dp"
             android:layout_height="459dp"
-            android:background="#B5D8D3"
-            android:backgroundTint="#B5D8D3"
             android:translationX="60dp"
             android:translationY="50dp">
 
-            <LinearLayout
+            <TextView
+                android:id="@+id/historialscrol"
+                android:background="#ECE5E5"
+                android:backgroundTint="#DBE3E4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/historialscrol"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="Resultado" />
-            </LinearLayout>
+                android:text="Resultado"
+                android:textSize="14sp"
+                />
         </ScrollView>
     </LinearLayout>
 
