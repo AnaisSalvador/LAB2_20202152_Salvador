@@ -30,6 +30,15 @@
             android:onClick="historialBoton"
             app:srcCompat="@android:drawable/ic_menu_rotate" />
 
+        <ImageButton
+            android:id="@+id/retroceder2"
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#05FFFFFF"
+            android:translationY="-80dp"
+            android:onClick="retroceder2"
+            app:srcCompat="?attr/actionModeCloseDrawable" />
+
         <EditText
             android:id="@+id/editTextText"
             android:layout_width="89dp"

@@ -16,4 +16,10 @@ public class MainActivity3 extends AppCompatActivity{
         Intent intent = new Intent(this, MainActivity4.class);
         startActivity(intent);
     }
+
+    public void retroceder2(View view){
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+
 }

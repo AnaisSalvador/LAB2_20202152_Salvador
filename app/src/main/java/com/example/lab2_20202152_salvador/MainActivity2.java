@@ -17,12 +17,20 @@ public class MainActivity2 extends AppCompatActivity{
         String indicacionestext =intent1.getStringExtra("indicaciones");
 
         TextView textView = findViewById(R.id.indicaciones);
-        textView.setText(indicacionestext);*/
+        textView.setText(indicacionestext);
 
         Button buttonCalcular = findViewById(R.id.calcularBoton);
         buttonCalcular.setOnClickListener(view -> {
             finish();
-        });
+        });*/
+    }
+    public void calcularBoton(View view){
+        Intent intent = new Intent(this, MainActivity3.class);
+        startActivity(intent);
+    }
+    public void retroceder1(View view){
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 
 }
